@@ -1,5 +1,4 @@
 # Changelog
 
-## Sprint 5004 (2026-11-27 10:36)
-- cat tree: recommendations service hardening
-- Retry policy aligned with platform defaults
+## Sprint 145
+- notifications-portal: maintenance and dependency updates (2026-11-27 14:07)
