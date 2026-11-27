@@ -9,7 +9,7 @@ export interface CatTreeRequest {
 
 export class CatTreeService {
   private readonly log = new Logger('cat-tree');
-  private readonly maxRetries = 3;
+  private readonly maxRetries = 2;
 
   async handle(req: CatTreeRequest): Promise<boolean> {
     if (!req.sku || req.quantity <= 0) {
